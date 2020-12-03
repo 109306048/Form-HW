@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>form</title>
+</head>
+<body>
+<table border="2">
+	<thead>
+		<tr>
+		    <th colspan="3">About me -- 109306048</th><br>
+		</tr>
+		<tr>    
+		    <th rowspan="3">
+			   <img src="https://files.thehandbook.com/uploads/2019/03/ronaldo.jpg" width="200" height="200">
+		    </th>
+		    <th colspan="2" align="left">
+		    	<form method="get">
+		    		<p>
+		    			Name:<input type="text" name="name"><br>
+		    			<form >
+		    				<label for="gender">Gender:</label>
+		    				<input type="radio" id="gender1" name="male">
+		    				<label for="gender1">Male</label>
+		    				<input type="radio" id="gender2" name="female">
+		    				<label for="gender2">Female</label>
+		    				<input type="radio" id="gender3" name="Other">
+		    				<label for="gender3">Other</label>
+		    			</form>
+		    		</p>
+		    	</form>
+		    </th>
+	    </tr>
+	    <tr>
+	    	<th colspan="1">
+	    	   <form>
+	    	   	<label for="county">County:</label>
+	    	   	<select name="county" id="county">
+	    	   		<option value="Taipei">Taipei</option>
+	    	   		<option value="Taoyuan">Taoyuan</option>
+	    	   		<option value="Taichung">Taichung</option>
+	    	   	</select>
+	    	   </form>
+	        </th>
+	    	<th colspan="1">
+	    		<label for="birthday">Birthday:</label>
+	    		<input type="text" name="birthday">
+	    	</th>
+	    </tr>
+	    <tr>
+	    	<th colspan="2" align="left">
+	    		<label for="email">E-mail</label>
+	    		<input type="email" id="email" name="email">
+	    	</th>
+	    </tr>
+	    <tr>
+	    	<th rowspan="1" align="left">Hobby</th>
+	    	<th colspan="2" align="left">
+	    		<form>
+	    			<input type="checkbox" id="hobby1" name="swimmimg">
+	    			<label for="hobby1">Swimming</label>
+	    			<input type="checkbox" id="hobby2" name="volleyball">
+	    			<label for="hobby2">Volleyball</label>
+	    			<input type="checkbox" id="hobby3" name="movie">
+	    			<label for="hobby3">Movies</label>
+	    			<input type="checkbox" id="hobby4" name="game">
+	    			<label for="hobby4">Games</label>
+	    			<input type="checkbox" id="hobby5" name="sleeping">
+	    			<label for="hobby5">Sleeping</label>
+	    		</form>
+	    	</th>
+	    </tr>
+	    <tr>
+	    	<th rowspan="1" align="left">Skill</th>
+	    	<th colspan="2" align="left">
+	    		<form>
+	    			<input type="checkbox" id="skill1" name="java">
+	    			<label for="skill1">Java</label>
+	    			<input type="checkbox" id="skill2" name="html">
+	    			<label for="skill2">HTML</label>
+	    			<input type="checkbox" id="skill3" name="python">
+	    			<label for="skill3">Python</label>
+	    			<input type="checkbox" id="skill4" name="microsoft office">
+	    			<label for="skill4">Microsoft Office</label>
+	    			<input type="checkbox" id="skill5" name="adobe premiere">
+	    			<label for="skill5">Adobe Premiere</label>
+	    		</form>
+	    	</th>
+	    </tr>
+	    <tr>
+	    	<th rowspan="1" align="left">Say Something</th>
+	    	<th colspan="2">
+	    		<form>
+	    			<textarea id="saysomething" name="saysomething" rows="4" cols="75">Say something here.
+	    			</textarea>
+	    		</form>
+	    	</th>
+	    </tr>
+	    <tr>
+	    	<th colspan="3">
+	    	    <input type="submit" value="Submit">
+	    	    <input type="reset" value="重設">
+	        </th>
+	    </tr>
+
+	</thead>
+
+	
+</table>
+</body>
+</html>
